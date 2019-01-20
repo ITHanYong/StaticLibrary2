@@ -13,7 +13,7 @@
 		440D0A5E21EF550C00B14E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440D0A5D21EF550C00B14E5D /* Assets.xcassets */; };
 		440D0A6121EF550C00B14E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440D0A5F21EF550C00B14E5D /* LaunchScreen.storyboard */; };
 		440D0A6421EF550C00B14E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D0A6321EF550C00B14E5D /* main.m */; };
-		44F81D3021F49479006B9A10 /* libStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F81D2D21F4936B006B9A10 /* libStaticLibrary.a */; };
+		44F81D3221F4954B006B9A10 /* libStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F81D3121F4954B006B9A10 /* libStaticLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		440D0A6321EF550C00B14E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44F81D2A21F4923C006B9A10 /* StaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibrary.h; sourceTree = "<group>"; };
 		44F81D2B21F4923C006B9A10 /* RadarMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarMapView.h; sourceTree = "<group>"; };
-		44F81D2D21F4936B006B9A10 /* libStaticLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStaticLibrary.a; path = ../../../Products/StaticLibrary/libStaticLibrary.a; sourceTree = "<group>"; };
+		44F81D3121F4954B006B9A10 /* libStaticLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticLibrary.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F81D3021F49479006B9A10 /* libStaticLibrary.a in Frameworks */,
+				44F81D3221F4954B006B9A10 /* libStaticLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		44F81CFD21F481B1006B9A10 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				44F81D2D21F4936B006B9A10 /* libStaticLibrary.a */,
+				44F81D3121F4954B006B9A10 /* libStaticLibrary.a */,
 				44F81D2921F4923C006B9A10 /* Headers */,
 			);
 			path = lib;
